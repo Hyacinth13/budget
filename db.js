@@ -6,5 +6,7 @@ var Item = new Schema({
 	cost: {type: Number, required: true}
 });
 
+
+
 mongoose.model( 'Item', Item );
 mongoose.connect( 'mongodb://localhost/budget-app' );
